@@ -146,6 +146,12 @@
   transform: translateY(-3px);
 }
 
+.social-link-modern img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 /* Footer Bottom */
 .footer-bottom-modern {
   background: #0d1a2b;
@@ -174,15 +180,15 @@
   .footer-newsletter-modern h4 {
     font-size: 1.75rem;
   }
-  
+
   .newsletter-form-modern {
     flex-direction: column;
   }
-  
+
   .footer-heading-modern {
     font-size: 1.3rem;
   }
-  
+
   .social-links-modern {
     justify-content: center;
   }
@@ -192,15 +198,15 @@
   .footer-newsletter-modern {
     padding: 2rem 0;
   }
-  
+
   .footer-newsletter-modern h4 {
     font-size: 1.5rem;
   }
-  
+
   .footer-top-modern {
     padding: 2rem 0 1rem;
   }
-  
+
   .footer-bottom-modern {
     padding: 1.5rem 0;
   }

@@ -24,6 +24,14 @@
   transform: scale(1.05);
 }
 
+.navbar-brand-modern img {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  object-fit: contain;
+  display: block;
+}
+
 .navbar-toggler-modern {
   border: none;
   color: #f8f9fa;
@@ -186,9 +194,12 @@
   .nav-link-modern {
     font-size: 0.95rem;
   }
+
   .navbar-brand-modern img {
-  height: 60px;   /* ajuste la valeur */
-  width: auto;    /* garde les proportions */
-}
+    max-height: 70px;
+    /* Taille réduite pour mobile */
+    width: auto;
+    /* Garde les proportions */
+  }
 
 }
